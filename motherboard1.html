@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Oswald:wght@400;600&family=Rajdhani:wght@600&display=swap"
+    rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerPCStore</title>
+
+    <!--main page icon-->
+    <link rel="icon" type="image/x-icon" href="local icon" />
+    <link href="sheet.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <header>
+        <div>
+            <!--Logo image-->
+            <img src="img/logo page.png" class="object-fit-cover border rounded" alt="PowerPCStore">
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg pb-3 bg-body-tertiary rounded shadow-lg">
+        <div class="container-fluid">
+            <b><a class="navbar-brand fs-3" href="main2.html">
+                    <img src="img/logo-removebg-preview.png" style="width: 8%; height: 8%;" alt="logoPage">
+                    PowerPCStore
+                </a></b>
+
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="sidebar offcanvas offcanvas-start bg-body-tertiary rounded" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body me-5 align-self-end">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link ms-5 btn btn-dark fs-5" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-5 btn btn-dark fs-5" href="best_sellers.html">Best Sellers</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ms-5 btn btn-dark fs-5" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu ms-5">
+                                <li><a class="dropdown-item btn btn-dark" href="Soon.html">Wishlist</a></li>
+                                <li><a class="dropdown-item btn btn-dark" href="Soon.html">My orders</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item btn btn-dark" href="account.html">My account</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4 text-center">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide imgsize">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="https://img.pccomponentes.com/articles/1058/10586045/1875-asus-rog-strix-x670e-f-gaming-wifi.jpg"
+                            class="rounded-1 imgsize" alt="Gigabyte GeForce RTX 4060 EAGLE OC 8GB">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://img.pccomponentes.com/articles/1058/10586045/2281-asus-rog-strix-x670e-f-gaming-wifi-comprar.jpg"
+                            class="rounded-1 imgsize" alt="Gigabyte GeForce RTX 4060 EAGLE OC 8GB">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.pccomponentes.com/articles/1058/10586045/3144-asus-rog-strix-x670e-f-gaming-wifi-mejor-precio.jpg"
+                            class="rounded-1 imgsize" alt="Gigabyte GeForce RTX 4060 EAGLE OC 8GB">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.pccomponentes.com/articles/1058/10586045/455-asus-rog-strix-x670e-f-gaming-wifi-especificaciones.jpg"
+                            class="rounded-1 imgsize" alt="Gigabyte GeForce RTX 4060 EAGLE OC 8GB">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+            <h5 class="mt-0 mt-2">ASUS ROG STRIX X670E-F GAMING WIFI</h5>
+
+            <p>
+            <div class="hstack gap-4 ms-2 mt-4">
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">BUY IT NOW</button>
+                <div class="p-2">
+                    <h3><strong>376,90 €</strong></h3>
+                </div>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5UlEQVR4nN2UsQ7BUBSGPwsGAxEziweQiGdQEpNX8QzSd5B0EJ7AKGG3moytCSPBQKXJGZpI6tzmVsKX3O075z+3PS38C08glONlEfCIBdyAGhmxiAWlPaukgJ6FgG1SQA7YiRiFaSkDR6kbfJJHIkaPS4srNWuNXAEusllNhd8AruK3tRN5MpGrcOfiTjGgJUUnoJjgdWTy6AZ1DNkYbM7YtHkVOCgaR5PPgIJpwEQaLGV1rVKS38VduUXG5IFzyq9YzVD5DsK0AZnTB/ZAADgWvDeC2LV9C973Axwp9oGuBe+HeQGdhY4nafPkOQAAAABJRU5ErkJggg==">
+                        <h4 class="offcanvas-title" id="offcanvasExampleLabel"><strong>Cart</strong></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <hr>
+                    <div class="offcanvas-body m-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://img.pccomponentes.com/articles/1058/10586045/1875-asus-rog-strix-x670e-f-gaming-wifi.jpg"
+                                    class="img-thumbnail shadow-lg" alt="Gigabyte GeForce RTX 4060 EAGLE OC 8GB">
+                            </div>
+                            <div class="col-md-8 d-flex align-items-center">
+                                <br><a class="text-danger link-underline link-underline-opacity-0"
+                                    href="Gigabyte GeForce RTX 4060 EAGLE OC 8GB.html">ASUS ROG STRIX X670E-F GAMING
+                                    WIFI
+                                </a>
+                            </div>
+                            <div class="col-md-10 text-center">
+                                <br>
+                                <h5>Price - 376,90 €</h5>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="m-4">
+                        <a id="myButton234" class="btn btn-outline-success" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z">
+                                </path>
+                            </svg>
+                            Buy now!!
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </p>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn btn-dark focus-ring focus-ring-secondary" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Details
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body overflow-auto">
+                            <p><strong>Key Features</strong></p>
+                            <p>SLOT PCIE® Q-RELEASE: A physical button unlocks the security latch of the first PCIe slot
+                                with a simple touch, significantly simplifying the process of removing a PCIe card from
+                                the motherboard when it's time to upgrade to a new GPU or supplementary card.</p>
+                            <p>TOTAL PERFORMANCE: Robust power delivery, innovative overclocking tools, and
+                                comprehensive cooling controls are the building blocks of the ROG Strix X670E-A,
+                                providing everything you need to navigate and flex with the AMD Ryzen™ 7000 in your
+                                build.</p>
+                            <p>LEADING CONNECTIVITY: ROG Strix X670E-F gaming WiFi offers a wealth of internal and
+                                external connectivity for low-latency networks and extremely fast data transfers. These
+                                advantages are combined with an advanced audio solution that lets you pick up the
+                                faintest signals and focus on your opponents.</p>
+                            <p>PLAY IN STYLE: A striking silver and white aesthetic with complementary RGB lighting
+                                offers a build that stands out in every way. Pair the Strix X670E-F with other products
+                                from the diverse ROG ecosystem to create a fully customized gaming setup that reflects
+                                your personal style.</p>
+                            <p>SOFTWARE UTILITIES: Exclusive ROG software provides intuitive audio tuning and game
+                                enhancements, allowing you to configure your game the way you want.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed btn btn-dark focus-ring focus-ring-secondary"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Tecnical Information
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body overflow-auto">
+                            <p>AMD Socket AM5 for AMD Ryzen™ 7000 Series desktop processors*</p>
+                            <p>AMD X670</p>
+                            <p>4 x DIMMs, max. 128 GB, DDR5
+                                6400+(OC)/6200(OC)/6000(OC)/5800(OC)/5600(OC)/5400(OC)/5200/5000/4800 ECC and non-ECC,
+                                unbuffered memory*
+                                Dual-channel memory architecture
+                                Supports AMD EXTended Profiles for Overclocking (EXPO™)
+                                OptiMemII</p>
+                            <p>Supported memory types, data rates (speed), and the number of DRAM modules vary depending
+                                on the CPU and memory configuration; for more information, refer to www.asus.com for the
+                                memory support list.</p>
+                            <p>Supports ECC and non-buffered DDR5 memory
+                                ECC function in the matrix</p>
+                            <p>1 x DisplayPort*</p>
+                            <p>1 x HDMI® port**</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed btn btn-dark focus-ring focus-ring-secondary"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Reviews
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body overflow-auto">
+                            <strong>Top Reviews</strong>
+                            <p></p>
+                            <p>
+                                <img width="30" height="30" src="https://img.icons8.com/windows/32/user-male-circle.png"
+                                    alt="user-male-circle" />
+                                <strong>Zach Wright</strong> : Fantastic motherboard. A little expensive, but aren't
+                                they all? Lol. But the price was semi-reasonable for this board in my opinion, and it
+                                being of the x670e chipset. However, I chose this board due to its future-proof feature
+                                set, but didn't need a super overpowered VRM as I don't overclock or anything crazy like
+                                that, not to mention other unnecessary features that I know I wouldn't utilize and to be
+                                frank, think are just downright gimmicky and not needed for the majority of people at
+                                all. This seemed to be a perfect fit for me out of all the other mobo's I was looking
+                                at.
+                            </p>
+
+                            <hr>
+                            <p>
+                                <img width="30" height="30" src="https://img.icons8.com/windows/32/user-male-circle.png"
+                                    alt="user-male-circle" />
+                                <strong>Anthony S.</strong> : The amount of features and quality of the board is
+                                extremely low for what you pay for.
+
+                                That rog logo is the cheapest thing I've seen, it's not even backlit really it's just an
+                                engraved piece of plastic with LEDs shining indirectly. The amount of coil whine was
+                                unbearable, I had to return this mobo for one that still has coil wine but was slightly
+                                better. Any bios profiles you create get completely wiped out when you flash a new bios
+                                so make sure you memorize your settings. Bios setting is useless for RGB, no matter what
+                                you do it will not shut off RGB when you turn aura off when power off setting on. Aura
+                                also does not play well with ram LEDs, if you have aura sync on the ram RGB goes through
+                                colors like it's gaming at 9 frames a second.
+
+                                Armory crate is almost useless. Everyone that is considering this board should know that
+                                Asus does not update it's drivers in a timely regular manner for current gen hardware,
+                                it's insulting when you spend the kind of money on board and they cant be bothered to
+                                keep their own software up to date.
+                            </p>
+
+                            <hr>
+                            <p>
+                                <img width="30" height="30" src="https://img.icons8.com/windows/32/user-male-circle.png"
+                                    alt="user-male-circle" />
+                                <strong>Nick Borgman</strong> : No issues. Fast delivery. Easy install. Satisfied! It's
+                                a pricey mobo but highly recommend.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer text-center">
+
+        <div class="hstack">
+            <div class="vstack fs-5"><strong>PowerPCStore</strong>
+                <div class="p-2 fs-6">
+                    <a class="link-dark link-underline link-underline-opacity-0" href="about_us.html">About Us</a>
+                </div>
+
+                <div class="p-2 fs-6">
+                    <a class="text-dark link-underline link-underline-opacity-0" data-bs-toggle="offcanvas"
+                        href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        Contacts
+                    </a>
+
+                    <div class="offcanvas offcanvas-buttom" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contacts</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                <hr>
+                                <p>
+                                <h5><b>e-mail:</b></h3>
+                                    <h6>get_help@powerpcstore.com
+                                </h5>
+                                </p>
+                                <p>
+                                <h5><b>Phone Number</b></h5>
+                                <h6>927402094 / 939523575</h6>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="p-2 fs-6">
+                    <a class="link-dark link-underline link-underline-opacity-0" href="WhereWeAre.html">Where we are</a>
+                </div>
+            </div>
+
+            <div class="vstack fs-5"><strong>Useful links</strong>
+                <div class="p-2 fs-6">
+                    <a class="link-dark link-underline link-underline-opacity-0" href="https://www.instagram.com"
+                        target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z">
+                            </path>
+                        </svg>
+                        Instagram</a>
+                </div>
+                <div class="p-2 fs-6">
+                    <a class="link-dark link-underline link-underline-opacity-0" href="https://www.facebook.com"
+                        target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z">
+                            </path>
+                        </svg>
+                        Facebook</a>
+                </div>
+                <div class="p-2 fs-6 me-5">
+                    <a class=" link-dark link-underline-opacity-0" href="https://www.twitter.com" target="_blank">
+                        <svg aria-hidden="true" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </svg>
+                        X</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <hr>
+            </hr>
+            <small>&copy; 2023 PowerPCStore. All rights reserved. The images shown may not correspond to the product
+                specifications in the Portuguese market. Due to technical reasons, the colors presented may differ
+                slightly from the actual colors.</small>
+        </div>
+    </div>
+
+    <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <h2 style="color:green;">
+                Product bought with success!!
+            </h2>
+            <br>
+            <img src="img/yippee-happy.gif" style="width:150px;height:150px;" class="rounded mx-auto d-block mb-3">
+            <button id="closePopup" type="button" class="btn btn-outline-success" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                Return
+            </button>
+        </div>
+    </div>
+</body>
+
+<script>
+    myButton234.addEventListener("click", function () {
+        myPopup.classList.add("show");
+    });
+    closePopup.addEventListener("click", function () {
+        myPopup.classList.remove("show");
+    });
+    window.addEventListener("click", function (event) {
+        if (event.target == myPopup) {
+            myPopup.classList.remove("show");
+        }
+    });
+</script>
+
+</html>
